@@ -20,23 +20,39 @@
     }
   </style>
 </head>
-<body>
-  <header class="flex flex-row items-center bg-blue-400">
+<body class="bg-blue-100">
+  <!--Cabeçalho com logo e nome do site-->
+  <header class="sticky top-0 left-0 flex flex-row items-center bg-blue-500">
     <a href="index.html" class="inline-block">
       <img class="size-16 inline-block" src="imagens/economia.webp" alt="logo">
     </a>
-    <h1 class="flex-1 text-center text-5xl text-gray-800">Learn<span class="text-amber-500">eco</span></h1>
+    <h1 class="flex-1 text-center text-5xl text-white">Learn<span class="text-amber-500">eco</span></h1>
   </header>
+  <!--Barra de navegação lateral-->
   <nav>
-    <ul class="flex-initial flex-col w-1/3 h-full bg-slate-100 p-2">
+    <ul class="fixed flex-initial flex-col space-y-4 w-1/4 h-full bg-slate-100 p-4">
       <li>Introdução à Economia</li>
       <li>História da Economia</li>
       <li>Economia Internacional</li>
       <li>Mercado Financeiro</li>
     </ul>
   </nav>
-  <main> 
-    <section>
+  <!--Conteúdo de cada um dos tópicos da barra de navegação-->
+  <main class="flex flex-col h-full ml-96 p-4 w-3/5 bg-slate-100 leading-loose"> 
+    <section class="mt-6 space-y-4">
+      <h1 class="mb-4 font-bold text-2xl">Introdução à Economia</h1>
+      <p class="indent-4">A economia é a área que estuda como as pessoas, empresas e governos tomam decisões sobre o uso dos recursos que têm à disposição. Esses recursos são limitados, mas as necessidades e desejos das pessoas são muitos. Por isso, a economia tenta entender como lidamos com essa "falta" de recursos e como fazemos escolhas que impactam tanto o nosso dia a dia quanto a sociedade.</p>
+      <p class="indent-4">Ela ajuda a explicar, por exemplo, por que os preços dos produtos sobem ou descem, como os governos decidem sobre impostos, e por que alguns países são mais ricos que outros. Basicamente, a economia está presente em várias decisões que tomamos, mesmo sem percebermos.</p>
+    </section>
+    <section class="mt-6 space-y-4">
+      <h1 class="mb-4 font-bold text-2xl">Definição de Economia</h1>
+      <p class="indent-4">A economia é o estudo de como as pessoas organizam e utilizam seus recursos para suprir suas necessidades. Como os recursos, como dinheiro, matérias-primas e trabalho, são limitados, a economia busca entender como podemos usá-los da melhor maneira possível</p>
+      <p class="indent-4">A economia se divide em duas partes principais:</p>
+      <ul>
+        <li><strong>Microeconomia:</strong> foca no que as pessoas e empresas fazem individualmente, como decidir o que comprar ou vender.</li>
+        <li><strong>Macroeconomia:</strong> olha para a economia de um país ou do mundo todo, incluindo temas como inflação, desemprego e crescimento econômico.</li>
+      </ul>
+      <p class="indent-4">Pronto para entender mais sobre como a economia funciona no dia a dia e no mundo? No próximo tópico, vamos explorar com mais detalhes as duas grandes áreas da economia: microeconomia e macroeconomia. Descubra como suas escolhas individuais impactam o mercado e como decisões econômicas globais afetam a sua vida!</p>
     </section>
   </main>
   <footer>
